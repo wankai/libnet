@@ -4,6 +4,9 @@ namespace net {
 
 class InetAddress
 {
+ public:
+ private:
+  
 };
 
 }
