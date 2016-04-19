@@ -7,13 +7,13 @@ using namespace std;
 
 namespace net {
 
-class InetAddress
+class IPAddress
 {
  public:
  
-  InetAddress(uint32_t addr);
+  IPAddress(uint32_t addr);
   
-  InetAddress(const string& ip);
+  IPAddress(const string& ip);
   
  private:
   uint32_t addr_;
