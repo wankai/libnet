@@ -15,6 +15,9 @@ class InetAddress
       port_(port)
   {
   }
+  
+  string toString();
+  
  private:
   IPAddress ip_;
   int       port_;
