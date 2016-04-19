@@ -15,6 +15,13 @@ class IPAddress
   
   IPAddress(const string& ip);
   
+  uint32_t addr() const
+  {
+    return addr_;
+  }
+  
+  string toString();
+  
  private:
   uint32_t addr_;
 };
