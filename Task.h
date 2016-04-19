@@ -18,7 +18,7 @@ class LambdaTask : public Task
 };
 
 template<Fun, Arg...>
-std::unique_ptr<Task> make_lambda(Fun&& f, Arg... args)
+std::unique_ptr<Task> make_lambda(Fun&& f, Arg&&... args)
 {
   return std::make_unique<
 }
