@@ -4,9 +4,17 @@
 class InetAddress
 {
  public:
-  InetAddress(int port);
-  InetAddress(const string& ip, int port);
-  InetAddress(IPAddress ip, int port);
+  InetAddress(const string& ip, int port)
+    : ip_(ip),
+      port_(port)
+  {
+  }
+  
+  InetAddress(IPAddress ip, int port)
+    : ip_(ip),
+      port_(port)
+  {
+  }
  private:
   IPAddress ip_;
   int       port_;
