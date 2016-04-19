@@ -10,14 +10,9 @@ namespace net {
 class InetAddress
 {
  public:
-  /**
-   * @param addr 
-   * /
+ 
   InetAddress(uint32_t addr);
   
-  /**
-   * @param ip
-   * /
   InetAddress(const string& ip);
   
  private:
