@@ -2,10 +2,10 @@
 
 namespace net {
   
-class Engine
+class network_engine
 {
  public:
-  
+  void start();
  private:
 };
 
